@@ -8,36 +8,29 @@
 <body>
     <h1>フォーム入力</h1>
     <form action="confirm.php" method="post">
-        <label for="username">名前:</label>
-        <input type="text" id="username" name="username"><br><br>
-
+        <label for="name">名前:</label>
+        <input type="text" id="name" name="name">
 
         <label for="age">年齢:</label>
-        <input type="text" id="age" name="age"><br><br>
-
+        <input type="text" id="age" name="age">
 
         <label for="phone">電話番号:</label>
-        <input type="text" id="phone" name="phone"><br><br>
-
+        <input type="text" id="phone" name="phone">
 
         <label for="email">メールアドレス:</label>
-        <input type="text" id="email" name="email"><br><br>
-
+        <input type="text" id="email" name="email">
 
         <label for="address">住所:</label>
-        <input type="text" id="address" name="address"><br><br>
-
+        <input type="text" id="address" name="address">
 
         <label for="question">質問:</label>
-        <textarea id="question" name="question"></textarea><br><br>
-
+        <textarea id="question" name="question"></textarea>
 
         <label for="gender">性別:</label>
         <select id="gender" name="gender">
             <option value="male">男性</option>
             <option value="female">女性</option>
-        </select><br><br>
-
+        </select>
 
         <button type="submit">送信</button>
     </form>

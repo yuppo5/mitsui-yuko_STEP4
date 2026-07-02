@@ -7,6 +7,10 @@ body {
 h1 {
     text-align: center;
     color: #333;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
 }
 
 form {
@@ -20,7 +24,7 @@ form {
 
 label {
     display: block;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
 }
 
 input[type="text"],
@@ -31,7 +35,7 @@ textarea,
 select {
     width: 100%;
     padding: 8px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     border: 1px solid #333;
     border-radius: 4px;
 }
@@ -42,6 +46,7 @@ textarea {
 }
 
 button {
+    text-align: left;
     padding: 10px 20px;
     background-color: #0069d9;
     color: #fff;
